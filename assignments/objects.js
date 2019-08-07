@@ -92,19 +92,19 @@ const parent = {
   name: 'Susan',
   age: 70,
   speak: function() {
-    return `Hello, my name is ${this.name}`;
+    return `Hello, my name is ${this.name}`; // speak function that returns a string with including the value of the objects name key
   },
   child: {
     name: 'George',
     age: 50,
     speak: function() {
-      return `Hello, my name is ${this.name}`;
+      return `Hello, my name is ${this.name}`; // speak function that returns a string with including the value of the objects name key
     },
     grandchild: {
       name: 'Sam',
       age: 30,
       speak: function() {
-        return `Hello, my name is ${this.name}`;
+        return `Hello, my name is ${this.name}`; // speak function that returns a string with including the value of the objects name key
       }
     }
   }
